@@ -15,7 +15,19 @@
     <deploy-root-name>iyaoling</deploy-root-name>
     <org.slf4j-version>1.6.1</org.slf4j-version>
   </properties>
-  
+ 
+<distributionManagement>
+  <snapshotRepository>
+    <id>wanmei-snapshots</id>
+    <url>http://103.com:8081/nexus/content/repositories/wanmei-snapshots</url>
+  </snapshotRepository>
+    <repository>
+    <id>wanmei-releases</id>
+    <url>http://103.com:8081/nexus/content/repositories/wanmei-releases</url>
+  </repository>
+</distributionManagement>
+
+ 
   <dependencies>
     <dependency>
       <groupId>org.springframework</groupId>
