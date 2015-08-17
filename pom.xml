@@ -19,11 +19,11 @@
 <distributionManagement>
   <snapshotRepository>
     <id>wanmei-snapshots</id>
-    <url>http://103.com:8081/nexus/content/repositories/wanmei-snapshots</url>
+    <url>http://192.168.100.212/nexus/content/repositories/wanmei-snapshots</url>
   </snapshotRepository>
     <repository>
     <id>wanmei-releases</id>
-    <url>http://103.com:8081/nexus/content/repositories/wanmei-releases</url>
+    <url>http://192.168.100.212/nexus/content/repositories/wanmei-releases</url>
   </repository>
 </distributionManagement>
 
